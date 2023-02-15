@@ -1,0 +1,178 @@
+body{
+    text-align: center;
+    margin:0px;
+    font-family: 'Merriweather', serif;
+}
+
+
+h1{
+    margin-top:0px;
+    font-family: 'Waterfall', cursive;
+    font-size: 4.625rem;
+    margin:40px auto 0px auto;
+    line-height:2;
+    color:#66BFBF;
+}
+
+
+
+
+h2, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-weight:normal;
+    color:#66BFBF;
+}
+
+p{
+    margin-bottom:0;
+}
+
+hr{
+    width:9%;
+    border-style: dotted none none none;
+    border-color: #EAF6F6;
+    border-width : 10px;
+    margin: 80px auto 75px auto;
+}
+
+/**** Top container *****/
+.top-container{
+    background-color: #EAF6F6;
+    padding-top:100px;
+    position:relative;
+}
+
+
+.top-container h2{
+    margin-bottom:0;
+    font-size: 1.5rem;
+}
+
+
+/********/
+
+
+
+
+/* middle container skills */
+
+
+.middle-container{
+    position: relative; 
+      
+}
+
+
+.skills{
+    
+}
+.profile p{
+
+    width: 45%;
+
+    margin: 65px auto 0px auto;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+.cloud1{
+    position:absolute;
+    top:50px;
+    right: 300px;
+}
+
+.cloud2{
+    position:absolute;
+    bottom: 300px;
+    left: 300px;
+
+
+}
+
+.img{
+    position:absolute;
+    height :50px;
+    width:50px;
+    transition: all 0.2s ease-in;
+}
+
+
+.skill-row h3{
+   
+    
+}
+
+.skill-row{
+    width:100px;
+    height: 100px;
+    margin: 25px 40px 30px 20px;
+
+    display: inline-block;
+}
+.img:hover{
+    
+    height:65px;
+    width:65px;
+}
+
+.middle-container h2{
+    margin-top:30px;
+    margin-bottom:70px;
+    color: #66BFBF;
+    font-weight:bold;
+    font-size: 2em;
+}
+.skills h3{
+    position:relative;
+    top:70px;
+    left:27px;
+    margin-top:10px;
+    color:#11999E;
+}
+
+
+.contact-me p{
+    width:40%;
+    margin:70px auto 50px auto;
+    letter-spacing: 1px;
+    line-height:2;
+}
+.contact-me h3{
+    color:#11999E;
+}
+
+.contact-me{
+    margin-bottom:40px;
+}
+.btn{
+    display:block;
+    width:12%;
+    margin:50px auto;
+    border :0px solid black;
+    padding: 15px;
+    border-radius:15px;
+    background-color:#11999E;
+    color:white;
+    text-decoration: none;
+}
+/*** Bottom container ***/
+.bottom-container{
+margin-top:40px;
+height:200px;
+background-color:#66BFBF;
+}
+
+.footer-link{
+    text-decoration:none;
+    color: #11999E;
+    display:inline-block;
+    margin: 30px 45px 30px 45px;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+
+.bottom-container p{
+    color:white;
+}
